@@ -36,8 +36,8 @@ const task1 = newTask('Clean Cat Litter', 'Take all the 💩 out of the litter b
 const task2 = newTask('Do Laundry', '😨');
 const tasks = [task1, task2];
 
-console.log(tasks);
-
 task1.logState();
 task1.markCompleted();
 task1.logState();
+
+console.log(tasks);
